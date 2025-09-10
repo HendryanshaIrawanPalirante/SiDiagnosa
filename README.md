@@ -5,10 +5,10 @@
 
 ## 🚀 Fitur Utama
 
-- **Diagnosa Penyakit**
+- **Diagnosa Penyakit**  
   Fitur ini digunakan untuk mendiagnosa penyakit dengan cara menjawab pertanyaan.
 
-- **Hasil Diagnosa**
+- **Hasil Diagnosa**  
   Fitur ini untuk menampilkan hasil diagnosa.
 
 - **Konsultasi**  
