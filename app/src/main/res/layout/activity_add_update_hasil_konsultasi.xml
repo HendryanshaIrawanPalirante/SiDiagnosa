@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.admin.hasilKonsultasi.AddUpdateHasilKonsultasiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/primary"
+                    android:gravity="center_vertical"
+                    android:paddingStart="20dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_co_present" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Data Gejala"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <!-- Konten Data dalam TableLayout -->
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TableRow>
+                        <TextView
+                            android:text="Nama Pasien"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvNama"
+                            android:text="Nama"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="No BPJS"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvNoBpjs"
+                            android:text="No BPJS"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Kartu Berobat"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvNoKartuBerobat"
+                            android:text="Kartu Berobat"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Umur"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvUmur"
+                            android:text="Umur"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Jenis Kelamin"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvJenisKelamin"
+                            android:text="Jenis Kelamin"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Hasil Diagnosa"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvHasilDiagnosa"
+                            android:text="Hasil Diagnosa"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Waktu"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvWaktu"
+                            android:text="Waktu"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Nik Dokter"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvNikDokter"
+                            android:text="Nik Dokter"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Nama Dokter"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvNamaDokter"
+                            android:text="Nama Dokter"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="2dp">
+                        <TextView
+                            android:text="Pengobatan"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:text=":"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvPengobatan"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pengobatan"
+                            android:textSize="14sp"
+                            android:textColor="@color/black"
+                            android:singleLine="false"
+                            android:ellipsize="none"
+                            android:scrollHorizontally="false"/>
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

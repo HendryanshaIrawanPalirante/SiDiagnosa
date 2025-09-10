@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.TA_Hendryansha"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.user.riwayatKonsultasi.DetailRiwayatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.riwayatKonsultasi.RiwayatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.notifications.AddUpdateNotifikasiActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".view.admin.hasilKonsultasi.AddUpdateHasilKonsultasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.hasilKonsultasi.ListHasilKonsultasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_user.AddUpdateAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_user.AddUpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_user.ListAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_user.ListUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.AddUpdateRuleFcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.AddUpdateRuleCfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.ListRuleFcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.AddUpdatePenyakitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.ListRuleCfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.AddUpdateGejalaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.ListPenyakitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.kelola_data.ListGejalaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.biodataUser.BiodataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.konsultasi.DaftarTungguKonsultasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.hasilDiagnosa.HasilDiagnosaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.konsultasi.KonsultasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.signup.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.welcome.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

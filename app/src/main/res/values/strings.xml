@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TA_Hendryansha</string>
+    <string name="message_welcome_page">Selamat datang di sistem layanan konsultasi penyakit, layanan ini menyediakan konsultasi secara langsung ke dokter.</string>
+    <string name="title_welcome_page">Sistem Pakar Penyakit</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Sudah siap untuk melakukan konsultasi?</string>
+    <string name="home">Home</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="notification">Notification</string>
+    <string name="edit_user">Edit User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
