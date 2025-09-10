@@ -1,6 +1,7 @@
 # 🧩 SiDiagnosa
 
-**Dicoding Event** Aplikasi Dicoding Event merupakan sebuah aplikasi yang menampilkan daftar kegiatan atau event yang diselenggarakan oleh Dicoding. Project ini dikembangkan sebagai bagian dari penyelesaian submission pelatihan, dengan tujuan untuk mengimplementasikan materi yang telah dipelajari sekaligus memberikan manfaat praktis berupa informasi event yang sedang berlangsung maupun yang telah selesai, sehingga dapat menjadi referensi dan sarana bagi peserta maupun komunitas developer dalam mengikuti kegiatan Dicoding.
+**SiDiagnosa** Project ini merupakan pengembangan aplikasi sistem informasi diagnosa penyakit untuk menyelesaikan tugas akhir, Aplikasi ini bertujuan untuk mendukung tenaga medis dalam mengidentifikasi penyakit berdasarkan gejala yang dialami pasien, sehingga proses diagnosis dapat dilakukan dengan lebih cepat.
+
 ---
 
 ## 🚀 Fitur Utama
